@@ -13,18 +13,19 @@ body {
 }
 
 .announcement-container {
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(0, 113, 219);
     color: white;
+    font-weight: lighter;
 }
 
-.announcement-item {
+.announcement-text {
     padding: 1.4rem;
     margin: 0;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
-.announcement-item a {
+.announcement-text a {
     color: white;
     margin-left: .5rem;
 }
@@ -385,6 +386,7 @@ hr {
 
 .battery-life {
     width: 100%;
+    margin-bottom: 0;
 }
 
 .btn.btn-view-specs {
@@ -555,4 +557,8 @@ hr {
     margin-left: 4rem;
     color: black;
     font-weight: lighter;
+}
+
+.footer-links a:hover {
+    color: #1967d2;   
 }
