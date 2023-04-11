@@ -522,3 +522,37 @@ hr {
 .useful-links-right {
     height: 45rem;
 }
+
+.footer {
+    display: flex;
+    width: 70%;
+    border-top: .5px solid rgb(235, 235, 235);
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: .5rem 0;
+}
+
+.footer-icons {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    width: 30%;
+    padding-left: 0;
+}
+
+.footer-icons li {
+    margin-right: 1.2rem;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin-left: 4rem;
+    color: black;
+    font-weight: lighter;
+}
