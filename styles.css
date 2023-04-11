@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     font-size: 1.5rem;
-    font-family: Montserrat, sans-serif;
+    font-family: sans-serif;
 }
 
 .announcement-container {
@@ -18,10 +18,10 @@ body {
 }
 
 .announcement-item {
-    padding: 1.5rem;
+    padding: 1.4rem;
     margin: 0;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .announcement-item a {
@@ -42,7 +42,8 @@ body {
     display: grid;
     grid-template-columns: 3rem 1fr 25rem;
     align-items: center;
-    padding: 1.2rem;
+    padding: 1.3rem;
+    padding-top: 1.4rem;
     position: sticky;
     top: 0;
     width: 76%;
@@ -57,7 +58,17 @@ body {
     display: flex;
     margin: 0;
     padding-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a:hover {
+    color: #1967d2;
 }
 
 .logo {
@@ -93,7 +104,7 @@ body {
 }
 
 .header-title {
-    font-size: 3.1rem;
+    font-size: 3.3rem;
     margin-top: 1rem;
     /* font-weight:  */
 }
@@ -119,13 +130,18 @@ body {
     margin-top: 3rem;
 }
 
+.header-products a {
+    text-decoration: none;
+    color: black;
+}
+
 .new-tag {
-    font-size: 1rem;
-    background-color: rgb(210, 227, 233);
+    font-size: 1.1rem;
+    background-color: rgb(190, 214, 223);
     padding: .3em .65em;
     border-radius: 1em;
     position: absolute;
-    bottom: 5rem;
+    bottom: 2.5rem;
     left: 3.5rem;
 }
 
@@ -183,7 +199,7 @@ body {
 
 .btn {
     margin-top: 2rem;
-    padding: .7rem 1.6rem;
+    padding: .8rem 1.8rem;
     border-radius: .3em;
     outline: none;
     border: 2px solid rgb(97, 97, 97);
@@ -230,17 +246,18 @@ body {
 }
 
 .differentiation-item h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-top: 2.8rem;
     font-weight: 600;
     margin-bottom: 1.8rem;
 }
 
 .differentiation-item p {
-    font-size: 1.3rem;
-    width: 88%;
+    font-size: 1.4rem;
+    width: 91%;
     margin: 0 auto;
     line-height: 1.5;
+    font-weight: lighter;
 }
 
 .section-decision {
@@ -251,16 +268,28 @@ body {
 .section-decision-container {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 40rem));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 43rem));
     justify-content: center;
     align-items: center;
     margin-top: 7rem;
     position: relative;
 }
 
+.decision-earbud-left {
+    position: relative;
+}
+
+.decision-earbud-left span {
+    position: absolute;
+    left: 2.7rem;
+    top: 2rem;
+    bottom: 52rem;
+    font-size: 1.2rem;
+}
+
 .section-decision-container img {
     padding: 2rem;
-    height: 35rem;
+    height: 40rem;
     background-color: #F8F9FA;
     border-radius: 1em;
 }
@@ -278,11 +307,15 @@ body {
 .decision-btn-container {
     display: flex;
     align-items: center;
-    font-size: 1.15rem;
+    font-size: 1.3rem;
+}
+
+.decision-btn-container a:hover {
+    text-decoration: underline;
 }
 
 .btn-buy {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 0;
     margin-right: 1.3rem;
     padding: .9rem 1.7rem;
@@ -315,7 +348,7 @@ body {
 
 .compare-container {
     margin-bottom: 3.5rem;
-    min-width: 80rem;
+    min-width: 86rem;
     max-width: 70rem;
 }
 
@@ -376,11 +409,6 @@ hr {
 
 .section-accessories a:hover {
     text-decoration: underline;
-}
-
-.section-accessories span {
-    position: relative;
-    top: .13rem;
 }
 
 .accessories-grid {
@@ -455,23 +483,25 @@ hr {
 }
 
 .tnc {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     padding: 0 28rem;
     margin-top: 18rem;
     margin-bottom: 9rem;
+    font-weight: lighter;
 }
 
 .useful-links-container {
     display: flex;
     justify-content: flex-end;
     margin-right: 33rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .useful-links-container a {
     text-decoration: none;
     color: black;
+    font-weight: lighter;
 }
 
 .useful-links-container a:hover {
