@@ -149,6 +149,7 @@ body {
 .big-phones-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .big-phone-item {
@@ -169,7 +170,7 @@ body {
 .big-phone-item img {
     width: 95%;
     position: relative;
-    bottom: -.4rem;
+    bottom: -.35rem;
     padding-top: 5rem;
 }
 
@@ -334,13 +335,13 @@ body {
     position: relative;
 }
 
-/* .decision-earbud-left span {
+.decision-phone-item span {
     position: absolute;
-    left: 2.7rem;
-    top: 2rem;
-    bottom: 52rem;
+    left: 3rem;
+    top: 2.3rem;
+    bottom: 25.8rem;
     font-size: 1.2rem;
-} */
+}
 
 .section-decision-container img {
     padding: 2rem;
@@ -350,14 +351,49 @@ body {
 }
 
 .decision-phone-desc {
-    padding: 1rem .5rem;
-    padding-bottom: 1.6rem;
+    padding-bottom: 0;
     text-align: left;
+}
+
+.decision-phone-tagline {
+    font-weight: lighter;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.decision-phone-price {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.decision-phone-price p {
+    margin-right: .8rem;
+    margin-bottom: 0;
+}
+
+.decision-phone-price p:first-child {
+    font-weight: 600;
+}
+
+.decision-phone-price p:last-child {
+    color: rgb(0, 156, 0);
+}
+
+.decision-phone-price p:nth-child(2) {
+    text-decoration: line-through;
+}
+
+.decision-phone-installment {
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+    font-size: 1.1rem;
 }
 
 .decision-phone-desc h3 {
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 1.1rem;
 }
 
 .decision-btn-container {
@@ -395,12 +431,14 @@ body {
 }
 
 .section-compare {
-    padding: 0 29.6rem;
-    padding-right: 27rem;
+    /* padding: 0 29.6rem; */
+    /* padding-right: 27rem; */
     padding-bottom: 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 67%;
+    margin: 0 auto;
 }
 
 .compare-container {
@@ -417,13 +455,19 @@ hr {
 }
 
 .compare-items {
-    display: flex;
-    justify-content: flex-start
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, 40.35rem);
+    margin-bottom: 3.5rem;
 }
 
 .compare-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     margin-top: 1rem;
-    margin-right: 10rem;
+    /* margin-right: 30rem; */
 }
 
 .compare-item span {
@@ -432,7 +476,7 @@ hr {
 }
 
 .compare-item p {
-    width: 80%;
+    width: 100%;
     font-weight: lighter;
 }
 
